@@ -19,6 +19,7 @@ body{
 .h3css{
   font-size: 36px;
   text-align: center;
+  color: #ffffff;
 }
 
 .h4css{
@@ -126,7 +127,6 @@ body{
 
 /*-----------BlockInfoCard-------*/
 .bolock-info-card{
-  border:1px solid blue; 
   margin-top:10px;
   padding: 10px
 }
@@ -144,4 +144,10 @@ body{
 
 .bolock-info-card__right{
 
+}
+
+/*-----------Footer-------*/
+
+.block-footer{
+  background-color: #000080;
 }
