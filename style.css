@@ -33,7 +33,6 @@ body {
 }
 
 .formacss {
-    border: 1px solid #356EAD;
     box-sizing: border-box;
     border-radius: 10px;
     opacity: 0.4;
@@ -53,13 +52,11 @@ body {
 
 /*-----------Header-------*/
 .bolock-header {
-    border: 3px solid #9932cc;
     box-sizing: border-box;
 }
 
 .bolock-header__top-menu {
     display: flex;
-    border: 1px solid green;
     list-style: none;
     justify-content:space-between;
     flex-direction: row-reverse;
@@ -76,7 +73,6 @@ body {
 }
 
 .bolock-article {
-    border: 1px solid black;
     padding: 0 20px 20px 0;
 }
 
@@ -96,7 +92,6 @@ body {
 
 .block-top__h1 {
     padding: 10px 0;
-    border: 1px solid green;
     font-size: 30px;
     text-align: center;
     line-height: 30px;
@@ -108,7 +103,6 @@ body {
 }
 .block-card-wrap__block-card {
     width: 359px;
-    border: 1px solid blue;
 }
 
 .crad-href:after {
@@ -116,12 +110,11 @@ body {
 }
 
 .block-body__block-card:hover {
-    border: 1px solid red
+
 }
 
 /*-----------BlockPrew-------*/
 .block-prew {
-    border: 2px solid red;
     text-align: center;
 }
 
@@ -136,10 +129,10 @@ body {
 .bolock-big-img {
     background: url(img/ter.jpg) no-repeat;
     height: 700px;
-    border: 1px solid blue;
     background-size: cover;
     margin-top: 10px;
     border-radius: 10px;
+
 }
 
 .bolock-big-img__p {
@@ -152,7 +145,9 @@ body {
 /*-----------BlockInfoCard-------*/
 .bolock-info-card {
     margin-top: 10px;
-    padding: 10px
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .bolock-info-card__left, .bolock-info-card__right {
