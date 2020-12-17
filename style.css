@@ -51,9 +51,9 @@ body {
 }
 
 /*-----------Header-------*/
+
 .main-wrap {
     background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
-    width: 1366px;
     margin: 0 auto;
 }
 
@@ -62,7 +62,6 @@ body {
     height: 768px;
     display: flex;
     flex-direction: column;
-
 }
 
 .bolock-header__top-menu {
@@ -415,4 +414,225 @@ body {
     letter-spacing: 0.05em;
     color: #FFFFFF;
     opacity: 0.4;
+}
+
+/* media query*/
+@media (max-width: 768px) {
+
+  .container{
+    width: 768px;
+    padding: 0 36px 0 36px;
+    box-sizing: border-box;
+  }
+  /*-----------Header-------*/
+  .bolock-header{
+
+  }
+  .main-wrap{
+
+  }
+  .bolock-header__top-menu {
+    margin-top: 32px;
+  }
+  .bolock-header__top-menu__li:first-child {
+    margin-right: 0;
+  }
+
+  .bolock-header__top-menu__li:last-child {
+    margin-left: 0;
+  }
+  .bolock-article{
+    margin-top:120px;
+  }
+  .block-article_p{
+    margin-top: 32px;
+  }
+  .bolock-article{
+    background-size: 393px;
+    background-position: right top 122px;
+  }
+/*--BlockTop--------------------*/
+  .block-card-wrap{
+    flex-direction: column;
+  }
+  .block-card-wrap__block-card{
+    margin: 0 auto 32px auto;
+  }
+  .block-card-wrap__block-card:last-child{
+    margin: 0 auto;
+  }
+  /*!--BlockBigImg--------------------*/
+  .bolock-big-img{
+    height: 296.68px;
+  }
+  /*--BlockInfoCard--------------------*/
+  .bolock-info-card__left,.bolock-info-card__right{
+    width: 336px;
+    height: 253px;
+  }
+  /*--Footer--------------------*/
+  .paragraph{
+    width: 336px;
+  }
+  .block-footer__bootm{
+    width: 133.04px;
+    height: 31.48px;
+    margin-top: 191px;
+  }
+  .block-contact{
+    flex-direction: column;
+  }
+
+  .block-footer__footer{
+    height: 332px;
+  }
+}
+
+@media (max-width: 375px) {
+  .container{
+    width: 375px;
+    padding: 0 17px 0 17px;
+    box-sizing: border-box;
+  }
+
+  /*-----------Header-------*/
+  .bolock-header{
+    height: 376px;
+  }
+
+  .bolock-article{
+    background:none;
+    margin-top: 33px;
+  }
+  .bolock-article__h1{
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 37px;
+    width: 343px;
+    text-align: center;
+  }
+
+  .block-article_p{
+    width: 343px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin-top: 12px;
+  }
+
+  .bolock-article__button{
+    width: 108px;
+    height: 27px;
+    font-size: 12px;
+    line-height: 26px;
+    text-align: center;
+    padding: 0;
+    margin: 32px auto auto auto;
+    display:block;
+  }
+
+  .block-top__h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+  }
+  /*--BlockTop--------------------*/
+  .block-card-wrap__block-card{
+    width: 334px;
+  }
+  .block-card-wrap__block-card:nth-child(2)::before{
+    top: -5px;
+    right: 45px;
+  }
+
+  .bolock-big-img{
+    height: 144.42px;
+  }
+
+  .bolock-big-img__p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    color: #FFFFFF;
+    right: 16px;
+    top: 16px;
+  }
+
+  .bolock-info-card{
+    flex-direction: column;
+    margin-top: 16px;
+  }
+  .bolock-info-card__left,.bolock-info-card__right{
+    width: 343px;
+  }
+  .bolock-info-card__left{
+    margin-bottom: 16px;
+  }
+  .bolock-info-card__p{
+    font-size: 16px;
+    line-height: 19px
+  }
+
+  /*--Footer--------------------*/
+  /*.paragraph{*/
+  /*  width: 336px;*/
+  /*}*/
+  /*.block-footer__bootm{*/
+  /*  width: 133.04px;*/
+  /*  height: 31.48px;*/
+  /*  margin-top: 191px;*/
+  /*}*/
+  .block-footer__header{
+    flex-direction: column;
+    justify-content: end;
+  }
+  .block-footer__left{
+    margin: 18px 0 40px auto;
+    padding: 0;
+
+  }
+  .block-footer__header__h4{
+    margin-bottom:40px;
+  }
+  .block-contact{
+    flex-direction: column;
+  }
+
+  .block-footer__footer{
+    height: 332px;
+  }
+  .block-footer__bootm{
+    margin:0 auto;
+  }
+
+  .block-footer__footer{
+    padding: 32px 0 0 56px;
+  }
+  .block-footer__header__h4{
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    height: 51px;
+  }
+  .paragraph{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    height: 97px;
+    text-align: center;
+    letter-spacing: 0.05em;
+  }
+  .block-contact > li{
+    width: 304px;
+  }
+
 }
